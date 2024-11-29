@@ -1,0 +1,55 @@
+.PostD{
+    position: absolute;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%,-50%);
+    width:35%;
+    height:70vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+    .left{
+        width: 100%;
+        height: 70%;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        flex-direction: row;
+        display: flex;
+        gap: 5px;
+         img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+           
+            
+        }
+    }
+    .right{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: left;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
+    .datetime{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 10px;
+    }
+    .description{
+        width: 90%;
+        height: 30vh;
+        text-align: center;
+
+
+    }
+}
